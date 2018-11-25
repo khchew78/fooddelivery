@@ -31,6 +31,7 @@ function outputMenus(category_id) {
     }
 }
 
+// testing
 function addToCart(ele) {
     let data = new FormData();
     let target = ele.parentElement.previousElementSibling.firstElementChild
