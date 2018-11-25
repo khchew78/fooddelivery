@@ -18,6 +18,7 @@ class OrderingsController < ApplicationController
   end
   
   # testing
+  # modified somthing
   def order
     # if session[:user_id].present?
     #   # order_id, menu_name = OrderEngine.order(session[:order_id], session[:user_id], params[:menu_id], params[:quantity] )

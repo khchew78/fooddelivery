@@ -12,6 +12,7 @@ class OrderItemsController < ApplicationController
     redirect_to orderings_path
   end
   
+  # do something
   def update
     order_item = OrderItem.find params[:id]
     order_item_machine = OrderItemMachine.new(order_item: order_item, situation_id: 1)
